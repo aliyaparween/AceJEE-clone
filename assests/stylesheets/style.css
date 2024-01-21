@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./../fonts/Poppins-Regular.ttf);
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    gap: 35px;
+    background-color:white;
+
+}
+
+.nav>img{
+    height: 10vh;
+    width: 15vw;
+    padding: 2px;
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.nav>h3{
+    font-size: 15px;
+}
+
+.page1{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0px 50px 0px;
+    background-color: #F8F7F3;
+}
+
+.page1>.text{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding: 125px 200px 100px 200px;
+    width: 60%;
+    height: 100%;
+    gap: 25px;
+}
+
+.page1>.image{
+    border-radius: 50% 35% 60% 55%;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    
+}
+.page1>.text>h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.text>input{
+    margin: 10px 0px 10px 0px;
+    height: 5vh;
+    width: 90%;
+    border-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 16px 20px;
+    border: 1px solid #ddd;
+    background-color: #fffdf7;
+}
+
+.page1>.image img{
+    height: 95vh;
+    width: 35vw;
+    padding: 80px 50px 60px 0px;
+    border-radius: 50% 35% 60% 55%;
+}
+
+.text>.reviews{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.text>.reviews>img{
+    border-radius: 50%;
+    height: 8vh;
+    width: 10vh;
+    margin-right: 30px;
+}
+
+.page2{
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.page2>h2{
+    padding: 7px 0px 0px 200px;
+    font-weight: 900;
+    font-size: 35px;
+}
+.page2>h3{
+    padding: 10px 0px 15px 200px;
+    font-size: 17px;
+}
+
+.page2>.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    padding: 20px 0px 0px 200px;
+}
+.cards>.card1 img{
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+}
+.cards>.card2 img{
+    height: 200px;
+    width: 358px;
+    object-fit: cover;
+}
+
+.card1{
+    border: 1px solid #ddd; 
+}
+.card2{
+    border: 1px solid #ddd; 
+}
+
+.cardtext{
+    padding: 10px;
+    line-height: 1.5;
+}
+
+
+.cardtext>p{
+    padding: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.page3{
+    height: 60vh;
+    width: 100%;
+    background-color:#fff;
+    padding: 0px 0px 7px 200px;
+    line-height: 1.5;
+}
+
+.page3>h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.page3>.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 0px 10px 0px;
+}
+
+.cardtext2{
+    padding: 30px 10px 10px 0px;
+    line-height: 1.5;
+}
+
+.cardtext2>p{
+    padding: 15px 0px 5px 0px;
+}
+
+.cardtext2 h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.card3 img{
+    height: 320px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.card3 h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.page4{
+    height: 60vh;
+    width: 100%;
+    /* background-color:green; */
+    padding: 30px 0px 25px 200px;
+    line-height: 1.5;
+}
+
+.page4>.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px 0px 10px 0px;
+}
+
+.page4 h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.page4>.cards h2{
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
+}
+
+.page4>.cards4 h2{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.cards4 p{
+    padding: 15px 0px 5px 0px;
+}
+
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer img{
+    height: 150px;
+    width: 250px;
+    padding: 30px 0px 15px 0px;
+}
+
+.footer h4{
+    font-size: 15px;
+    padding: 0px 0px 20px 0px;
+    color: #ddd;
+}
+
+.footer input{
+    margin: 10px 0px 10px 0px;
+    height: 5vh;
+    width: 25vw;
+    border-color: #ddd;
+    border-radius: 4px;
+    padding: 16px 20px;
+    border: 1px solid #ddd;
+    background-color: #222;
+}
+
+.endfooter{
+    height: 5vh;
+    background-color: #1a1919;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+}
